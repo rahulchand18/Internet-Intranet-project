@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: white; */
   }
   
   /* root tag for all element */
@@ -60,6 +61,8 @@
     width: 60%;
     margin: 0 auto;
     box-shadow: -1px -1px 6px 8px #888888;
+    padding: 5px;
+    margin-top: 40px;
   }
   
   .container h1 {
@@ -142,7 +145,7 @@
   }
   
   /* for selecting elements whose class attribute is todo__description */
-  [class="todo__description"] {
+  [class^="todo__description"] {
     font-size: 2rem;
     margin-left: 1rem;
   }
@@ -182,4 +185,9 @@
   .todo__category-cleaning {
     background-color: green;
   }
+
+  /* .table2{
+    display: block;
+    margin: auto;
+  } */
   

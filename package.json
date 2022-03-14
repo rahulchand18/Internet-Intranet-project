@@ -11,12 +11,21 @@
     "todo",
     "app"
   ],
-  "author": "anurag",
-  "license": "",
+  "author": "Rahul",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "mongoose": "^5.6.12"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulchand18/Internet-Intranet-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulchand18/Internet-Intranet-project/issues"
+  },
+  "homepage": "https://github.com/rahulchand18/Internet-Intranet-project#readme"
 }
